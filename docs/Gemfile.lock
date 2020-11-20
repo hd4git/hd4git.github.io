@@ -9,6 +9,11 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (10.0.2.0)
+      execjs
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -103,6 +108,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-avatar (0.7.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-bootstrap-sass (0.1.0)
+      bootstrap-sass (~> 3.3)
+      jekyll (>= 2.5)
     jekyll-coffeescript (1.1.1)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.11.1)
@@ -198,6 +206,12 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    lab_pages (0.1.0)
+      bootstrap-sass (~> 3.3)
+      jekyll (~> 3.7)
+      jekyll-bootstrap-sass (~> 0.1)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-seo-tag (~> 2.0)
     liquid (4.0.3)
     listen (3.3.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -233,6 +247,8 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -257,7 +273,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  lab_pages
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
