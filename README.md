@@ -1,2 +1,2 @@
-# hd4git.github.io
+# cancer-epigenomics
 Magnani lab website
