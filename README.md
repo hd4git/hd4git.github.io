@@ -1,2 +1,2 @@
 # cancer-epigenomics
-Cancer Epigenomics
+Magnani Lab Website
